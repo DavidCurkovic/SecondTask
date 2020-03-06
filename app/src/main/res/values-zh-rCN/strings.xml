@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">第二項任務</string>
+    <string name="titleText">這是我的頭銜！</string>
+    <string name="messageText">這是我的信息！</string>
+    <string name="languageButton">中國</string>
+    <string name="messageButton">中國</string>
+    <string name="fizzBuzzButton">嘶嘶聲</string>
+    <string name="startButton">啟動</string>
+    <string name="languageToast1">世界，您好！</string>
+    <string name="languageToast2">錯誤</string>
+    <string name="imgCloseImage">圖片關閉</string>
+
+    <string name="Fizz">Fizz</string>
+    <string name="Buzz">Buzz</string>
+    <string name="FizzBuzz">FizzBuzz</string>
+
+
+    <string-array name="languageList">
+        <item>英語</item>
+        <item>克羅地亞</item>
+        <item>斯洛伐克</item>
+        <item>捷克</item>
+        <item>中國</item>
+    </string-array>
+</resources>

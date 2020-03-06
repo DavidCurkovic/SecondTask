@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Drugi Zadatak</string>
+    <string name="titleText">Ovo je moj naslov!</string>
+    <string name="messageText">Ovo je moja poruka!</string>
+    <string name="languageButton">Hrvatski</string>
+    <string name="messageButton">Poruka</string>
+    <string name="fizzBuzzButton">FizzBuzz</string>
+    <string name="startButton">Pokreni</string>
+    <string name="languageToast1">Pozdrav svijetu!</string>
+    <string name="languageToast2">Greška</string>
+    <string name="imgCloseImage">Slika Zatvaranja</string>
+
+    <string name="Fizz">Fizz</string>
+    <string name="Buzz">Buzz</string>
+    <string name="FizzBuzz">FizzBuzz</string>
+
+    <string-array name="languageList">
+        <item>Engleski</item>
+        <item>Hrvatski</item>
+        <item>Slovački</item>
+        <item>Češki</item>
+        <item>Kineski</item>
+    </string-array>
+</resources>
+

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Second task</string>
+    <string name="titleText">This is my Title!</string>
+    <string name="messageText">This is my message!</string>
+    <string name="languageButton">English</string>
+    <string name="messageButton">Message</string>
+    <string name="fizzBuzzButton">FizzBuzz</string>
+    <string name="startButton">Start</string>
+    <string name="languageToast1">Hello world!</string>
+    <string name="languageToast2">Error</string>
+    <string name="imgCloseImage">Image Close</string>
+
+    <string name="Fizz">Fizz</string>
+    <string name="Buzz">Buzz</string>
+    <string name="FizzBuzz">FizzBuzz</string>
+
+
+    <string-array name="languageList">
+        <item>English</item>
+        <item>Croatian</item>
+        <item>Slovak</item>
+        <item>Czech</item>
+        <item>Chinese</item>
+    </string-array>
+</resources>
