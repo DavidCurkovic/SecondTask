@@ -125,8 +125,8 @@ open class MainActivity : AppCompatActivity() {
 
         mDialogView.fizzbuzzButton.setOnClickListener {
         val arrayList = ArrayList<String>()
-        //call FizzBuzz method to check FizzBuzz
-        checkFizzBuzz(arrayList)
+        //call FizzBuzz class with method to check FizzBuzz
+        FizzBuzz(this,arrayList).checkFizzBuzz()
         //set FizzBuzz array to TextView
         mDialogView.FizzBuzzDialogText.text = arrayList.toString()
         }
@@ -138,29 +138,10 @@ open class MainActivity : AppCompatActivity() {
         mDialog.setCanceledOnTouchOutside(false);
     }
 
-    //check FizzBuzz
-    private fun checkFizzBuzz(arrayList: ArrayList<String>){
-        for (number in 1..15) {
-
-            if (number % 3 == 0 && number % 5 == 0)
-                arrayList.add(resources.getString(R.string.FizzBuzz))
-
-            else if (number % 3 == 0)
-                arrayList.add(resources.getString(R.string.Fizz))
-
-            else if (number % 5 == 0)
-                arrayList.add(resources.getString(R.string.Buzz))
-
-            else
-                arrayList.add(number.toString())
-        }
-    }
-
     //change actionbar title
     private fun changeActionBarTitle(){
         val actionBar = supportActionBar
         if (actionBar != null)
             actionBar.title = resources.getString(R.string.app_name)
     }
-
 }
