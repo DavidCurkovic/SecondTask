@@ -1,6 +1,6 @@
 # SecondTask
 
-Andorid aplikacija Second Task je napravljena u Kotlin programskom jeziku unutar Android Studio programskog alata.
+Android aplikacija Second Task je napravljena u Kotlin programskom jeziku unutar Android Studio programskog alata.
 
 Aplikacija se sastoji od jedne stranice i sadrži sljedeće funkcionalnosti:
 
